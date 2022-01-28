@@ -38,6 +38,8 @@ export default function PaginaInicial() {
   const [username, setUsername] = React.useState('jonasjesus42')
   const roteamento = useRouter()
   const caracteresNoUsername = username.length
+  let git = 'https://api.github.com/users/JonasJesus42/followers'
+  console.log(git)
 
   return (
     <>
